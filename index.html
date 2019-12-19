@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Dice and Rock, paper, Scissors</h1>
+            <p></p>
+        </div>
+        <div class="navbar navbar-default">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="fl.html">Lorem Ipsum</a></li>
+                <li><a href="contact.html">contact me</a></li>
+            
+            
+            </ul>
+        </div>
+        <div class="row">
+        <div class="col-md-6">
+            <h1>Rock, Paper, Scissors</h1>
+            <p>(aka "Ro-Sham-Bo", janken, "Bato, Bato, Pick" and "Scissors, Paper, Stone") is a simple hand game that is played around the world, with many different names and variations. It is commonly used as a way of coming to decisions, and in some cases is even played for sport. The rules require that competing players use one hand to form one of three shapes at an agreed-upon time. The person that plays the strongest “object” is the winner of the game. It's that easy! Rock, Paper, Scissors is a simple game that anybody can play and win. There is no obvious advantage to the stronger, older, more experienced opponent.</p>
+            <label>rock,paper,or scissors and click play:</label><input id='userInput'><br>
+            <button class="btn btn-play"onclick="RPS()">play</button>
+            <p id='userOutput'></p>
+            <p id='computerOutput'></p>
+            <p id='rpsOutput'></p>
+        </div>
+    </div>
+        <div class="col-md-6">
+            <h1>Dice game</h1>
+            <p> If you roll a 7 or 11, you win. 2, 3 or 12 are losing rolls. Any other total, roll again.</p>
+        
+            <button class="btn btn-play"onclick="dice()">roll</button>
+            <p id='diceOutput'></p>
+        </div>
+    </div>
+    <script src='rps.js'></script>
+    <script src='dice.js'></script>
+    </body>
+</html>
