@@ -1,0 +1,33 @@
+.jumbotron{
+    background-image:url("https://i.ebayimg.com/images/g/VOMAAOSwc15bTkBQ/s-l300.jpg")
+}
+#diceOutput{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    color:red;
+}
+body{
+    background-color:black;
+}
+li{
+    color:white;
+    background-color:black;
+}
+p{
+    color:white;
+}
+ul{
+    background-color:black;
+}
+div{
+   background-color:black; 
+}
+h3{
+    color:white;
+}
+#rpsOutput{
+    font-size: 20px;
+    font-weight: bold;
+}
